@@ -1,7 +1,7 @@
 const playlist = {nilsson: 'one', Blur: 'song 2', KingstonTrio: 'Three Song'}
 
 function updatePlaylist(playlist, artist, song) {
-  playlist[artist]=
+  playlist[artist]=song
 }
 
 function updateObjectWithKeyAndValue(obj, key, value) {
