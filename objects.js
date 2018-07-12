@@ -1,10 +1,10 @@
 const playlist = {nilsson: 'one', Blur: 'song 2', KingstonTrio: 'Three Song'}
 
-function updatePlaylist(playlist, artistName, songTitle) {
+function updatePlaylist(playlist, artist, song) {
   playlist[artist]=song;
   return playlist
 }
 
-function updateObjectWithKeyAndValue(obj, key, value) {
+function removeFromPlaylist(playlist, artist, song) {
   delete playlist[artist];
   return playlist}
